@@ -7,9 +7,9 @@ from eda import analyze_correlations, find_activity_cliffs, analyze_scaffolds
 from modeling import prepare_data, prepare_model, evaluate_models, cross_validate_best_model, feature_importance_analysis
 from visualization import  visualize_molecules, visualize_activity_cliffs
 
-# File paths
-data_path = 'C:/Users/tstav/Downloads/DDH Data.csv'  # Replace with your file path
-properties_path = 'C:/Users/tstav/Downloads/DDH Data with Properties.csv'  # Replace with your file path
+
+data_path = 'DDH Data.csv'  # Replace with your file path
+properties_path = 'DDH Data with Properties.csv'  # Replace with your file path
 
 def main():
     # Data preparation
